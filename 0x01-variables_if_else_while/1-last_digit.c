@@ -1,5 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
+#include<stdio.h>
+
 /**
  * main - Assigns a random number to the variable n
  * each time it is run
