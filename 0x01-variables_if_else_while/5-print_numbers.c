@@ -5,9 +5,12 @@
  */
 int main(void)
 {
-	int number;
+	int i;
 	
-	for(number = 0; number < 10; number++)
-		putchar("The numbers are %d\n", number);
+	for(i = 0; i < 10; i++)
+		printf("%i", i);
+
+	putchar('\n');
+
 	return (0);
 }
