@@ -7,8 +7,8 @@
  */
 int main(void)
 {
-#ifndef NAME_H
-	printf("%s\n", __FILE__);
-#endif
+	#ifndef NAME_H
+		printf("%s\n", __FILE__);
+	#endif
 	return (0);
 }
