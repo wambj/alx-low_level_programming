@@ -1,13 +1,14 @@
 #include <stdio.h>
 #define NAME_H
+
 /**
- * main - A program that prints the name of file compiled
+ * main - check the code for Holberton School students.
  *
- * Return: Always 0 (success)
+ * Return: Always 0.
  */
 int main(void)
 {
-	#ifndef NAME_H
+	#ifdef NAME_H
 		printf("%s\n", __FILE__);
 	#endif
 	return (0);
