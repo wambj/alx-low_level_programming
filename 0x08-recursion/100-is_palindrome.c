@@ -1,7 +1,7 @@
 #include "main.h"
 
 int check_pal(char *s, int i, int len);
-int _strlen_recursion(char *s)
+int _strlen_recursion(char *s);
 
 /**
  * is_palindrome - checks if value is same forward as back
